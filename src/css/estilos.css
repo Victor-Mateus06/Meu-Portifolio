@@ -7,7 +7,7 @@ body {
 	font-family: "Poppins", sans-serif;
 	margin: 0 auto;
 	max-width: 1120px;
-	background: linear-gradient(150deg, #000000, #9e00ff);
+	background: linear-gradient(150deg, #000000, #11dc8b);
 	background-size: 120% 120%;
 }
 
@@ -31,8 +31,8 @@ body {
 }
 
 .cabecalho a:hover .logo {
-	color: #9443d8;
-	border: 2px solid #9443d8;
+	color: #10d53b;
+	border: 2px solid #10d53b;
 }
 
 .cabecalho .menu li a {
@@ -43,7 +43,7 @@ body {
 }
 
 .cabecalho .menu li a:hover {
-	background-color: #9443d8;
+	background-color: #10d53b;
 	color: #fff;
 	border-radius: 50px;
 }
@@ -94,8 +94,8 @@ body {
 }
 
 .home .redes-sociais a i:hover {
-	color: #9443d8;
-	border: 1px solid #9443d8;
+	color: #10d53b;
+	border: 1px solid #10d53b;
 	transform: scale(1.1);
 }
 
@@ -194,11 +194,39 @@ body {
 }
 
 .projetos .btn-mostrar-projetos:hover {
-	background-color: #9443d8;
+	background-color: #10d53b;
 	transition: 0.3s;
 }
 
 .projetos .btn-mostrar-projetos.remover {
+	display: none;
+}
+
+
+
+
+.projetos .btn-esconder-projetos {
+	background: none;
+	border: 1px solid #fff;
+	border-radius: 15px;
+	color: #fff;
+	width: 180px;
+	padding: 20px;
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.projetos .btn-esconder-projetos:hover {
+	background-color: #10d53b;
+	transition: 0.3s;
+}
+
+.projetos .btn-esconder-projetos.remover {
 	display: none;
 }
 
