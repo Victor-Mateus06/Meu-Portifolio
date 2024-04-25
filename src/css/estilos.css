@@ -126,7 +126,9 @@ body {
 	font-weight: 500;
 	text-transform: uppercase;
 }
-
+.container-projetos .projeto.ativo{
+	justify-content: center;
+}
 .projetos .container-projetos {
 	display: flex;
 	gap: 20px;
@@ -144,6 +146,10 @@ body {
 
 .projetos .projeto.ativo {
 	display: block;
+}
+.projeto.ativo{
+width: 290px;
+height: 912px;
 }
 
 .projetos .projeto img {
